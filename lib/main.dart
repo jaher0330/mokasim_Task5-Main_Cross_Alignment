@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'alignment_page.dart';
+import 'task5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,13 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Task5 Main Cross Alignment',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
-      ),
-      home: const AlignmentPage(),
+      title: 'Task 5',
+      home: Task5(),
     );
   }
 }
